@@ -9,9 +9,15 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
     "express": "^4.21.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "ts-node": "^10.9.2"
   }
 }
